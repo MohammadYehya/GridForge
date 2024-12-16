@@ -1,7 +1,8 @@
 <div align="center">
-  <div align='center'>
-    <img src="assets/images/logo.png" alt="drawing" width="200"/>
-    <img src="assets/images/name.png" alt="drawing" width="200"/>
+  <div style="">
+    <img src="assets/images/logo.png" alt="drawing" width="150"/>
+    <img src="assets/images/name.png" alt="drawing" width="500"/>
+    
   </div>
 
 ![C++](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white)
@@ -13,4 +14,7 @@
 ![Stars](https://img.shields.io/github/stars/mohammadyehya/GridForge)
 
 </div>
+
+---
+
 A game engine created using SDL2 &amp; OpenGL to enhance development of isometric games.
