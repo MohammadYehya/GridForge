@@ -17,3 +17,9 @@
 ---
 
 A game engine created using SDL2 &amp; OpenGL to enhance development of isometric games.
+
+- Check SDL2
+- Check cmake
+- check OpenGL
+- check how to use in vscode
+- check how to do for Isometric Games
