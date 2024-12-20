@@ -7,6 +7,7 @@
 ![C++](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white)
 ![OpenGL](https://img.shields.io/badge/OpenGL-white?logo=OpenGL)
 ![SDL2](https://img.shields.io/badge/SDL2-black)
+![stability-wip](https://img.shields.io/badge/stability-wip-lightgrey.svg)
 ![Last Commit](https://img.shields.io/github/last-commit/mohammadyehya/GridForge)
 ![Issues](https://img.shields.io/github/issues/mohammadyehya/GridForge)
 ![Contributors](https://img.shields.io/github/contributors/mohammadyehya/GridForge)
