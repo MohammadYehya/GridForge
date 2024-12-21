@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.13.4)
 
-project(test)
+project(learnOpenGL)
 
-add_executable(${PROJECT_NAME} Tests/test.cpp)
+add_executable(${PROJECT_NAME} main.cpp)
