@@ -1,5 +1,9 @@
-cmake_minimum_required(VERSION 3.13.4)
+cmake_minimum_required(VERSION 3.13.2)
 
-project(test)
+project(learnSDL2)
 
-add_executable(${PROJECT_NAME} Tests/test.cpp)
+include_directories(ThirdParty/include)
+link_directories(ThirdParty/lib)
+add_executable(${PROJECT_NAME} main.cpp)
+
+target_link_libraries(${PROJECT_NAME} mingw32 SDL2main SDL2)
