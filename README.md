@@ -1,7 +1,7 @@
 <div align="center">
   <div style="">
-    <img src="assets/images/logo.png" alt="drawing" width="150"/>
-    <img src="assets/images/name.png" alt="drawing" width="500"/>
+    <img src="gitassets/images/logo.png" alt="drawing" width="150"/>
+    <img src="gitassets/images/name.png" alt="drawing" width="500"/>
   </div>
 
 ![C++](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white)
