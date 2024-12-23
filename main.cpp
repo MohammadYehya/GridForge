@@ -1,5 +1,6 @@
 #include <iostream>
 #include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
 
 const int WIDTH = 800, HEIGHT = 600;
 
@@ -19,10 +20,11 @@ int main( int argc, char *argv[] )
         return 1;
     }
 
-    // SDL_Surface* icon = IMG_Load("assets/system/interface/icon.png");
+    SDL_Surface* icon = IMG_Load("../gitassets/images/logo.png");
+    std::cout << SDL_GetError() << '\n';
     // SDL_Surface* icon = SDL_CreateRGBSurfaceFrom();
-    // SDL_SetWindowIcon(window, icon);
-    // SDL_FreeSurface(icon);
+    SDL_SetWindowIcon(window, icon);
+    SDL_FreeSurface(icon);
 
     SDL_Event windowEvent;
     int x = 0 , y = 0;
