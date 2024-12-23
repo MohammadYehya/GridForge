@@ -20,11 +20,10 @@ int main( int argc, char *argv[] )
         return 1;
     }
 
-    SDL_Surface* icon = IMG_Load("../gitassets/images/logo.png");
+    SDL_Surface* icon = IMG_Load("../Assets/Icons/logo.png");
     std::cout << SDL_GetError() << '\n';
     SDL_SetWindowIcon(window, icon);
     SDL_FreeSurface(icon);
-    //Look into resource script .rc and .ico files for persistant icons
 
     SDL_Event windowEvent;
     int x = 0 , y = 0;

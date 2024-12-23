@@ -4,7 +4,11 @@ project(GridForge)
 
 include_directories(ThirdParty/include)
 link_directories(ThirdParty/lib)
-add_executable(${PROJECT_NAME} main.cpp)
+if(WIN32)
+    add_executable(${PROJECT_NAME} WIN32 main.cpp "../Assets/Icons/resources.rc")
+else()
+    add_executable(${PROJECT_NAME} main.cpp)
+endif()
 
 target_link_libraries(${PROJECT_NAME} mingw32 SDL2main SDL2 SDL2_image)
 
