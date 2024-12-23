@@ -1,6 +1,6 @@
 <div align="center">
   <div style="">
-    <img src="gitassets/images/logo.png" alt="drawing" width="150"/>
+    <img src="gitassets/images/logo.PNG" alt="drawing" width="150"/>
     <img src="gitassets/images/name.png" alt="drawing" width="500"/>
   </div>
 
