@@ -20,7 +20,7 @@ int main( int argc, char *argv[] )
         return 1;
     }
 
-    // SDL_Surface* icon = IMG_Load("../Assets/Icons/logo.png");
+    // SDL_Surface* icon = IMG_Load("./CMakeFiles/GridForge.dir/Assets/Icons/resources.rc.obj");
     // std::cout << SDL_GetError() << '\n';
     // SDL_SetWindowIcon(window, icon);
     // SDL_FreeSurface(icon);

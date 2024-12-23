@@ -4,8 +4,11 @@ project(GridForge)
 
 include_directories(ThirdParty/include)
 link_directories(ThirdParty/lib)
+# add_executable(${PROJECT_NAME} main.cpp)
 if(WIN32)
-    add_executable(${PROJECT_NAME} WIN32 main.cpp "../Assets/Icons/resources.rc")
+    add_executable(${PROJECT_NAME} main.cpp "../Assets/Icons/resources.rc")
+    #Once making a release add WIN32 so that no console additions are made
+    #for now since we debugging i will remove it 
 else()
     add_executable(${PROJECT_NAME} main.cpp)
 endif()
