@@ -20,10 +20,10 @@ int main( int argc, char *argv[] )
         return 1;
     }
 
-    SDL_Surface* icon = IMG_Load("../Assets/Icons/logo.png");
-    std::cout << SDL_GetError() << '\n';
-    SDL_SetWindowIcon(window, icon);
-    SDL_FreeSurface(icon);
+    // SDL_Surface* icon = IMG_Load("../Assets/Icons/logo.png");
+    // std::cout << SDL_GetError() << '\n';
+    // SDL_SetWindowIcon(window, icon);
+    // SDL_FreeSurface(icon);
 
     SDL_Event windowEvent;
     int x = 0 , y = 0;
