@@ -22,7 +22,6 @@ int main( int argc, char *argv[] )
 
     SDL_Surface* icon = IMG_Load("../gitassets/images/logo.png");
     std::cout << SDL_GetError() << '\n';
-    // SDL_Surface* icon = SDL_CreateRGBSurfaceFrom();
     SDL_SetWindowIcon(window, icon);
     SDL_FreeSurface(icon);
 
