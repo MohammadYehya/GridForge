@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13.2)
 
-project(learnSDL2)
+project(learnOpenGL)
 
 include_directories(ThirdParty/include)
 link_directories(ThirdParty/lib)
